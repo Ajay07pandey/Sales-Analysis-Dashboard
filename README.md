@@ -17,24 +17,25 @@ We have a Fact table called Shipments table having fields as mentioned below:
             e. Sales
             f. Boxes
             
-Dimension Table:
+**Dimension Table:**
+
 We have another 4 Dimension Tables as mentioned below:
 1.	Product Table
-a.	Product
-b.	Category
-c.	Cost per box
+  a.	Product
+  b.	Category
+  c.	Cost per box
 
 2.	Location Table
-a.	Geo
-b.	Region
+  a.	Geo
+  b.	Region
 
 3.	Sales Person Table
-a.	Sales person
-b.	Team
-c.	Picture
+  a.	Sales person
+  b.	Team
+  c.	Picture
 
 4.	Calendar Table
-a.	Date
+  a.	Date
 
 Here for building the Relationship I have used Star Schema
 Relationship - One to Many
