@@ -63,22 +63,32 @@ LBS % = Divide ([LBS Count], [Total shipment])
 **Outline Work Flow:**
 
 a.	Chocolate Sales Analytics.
+
 b.	Sales, Boxes, Cost and Profits.
+
 c.	Performance of Sales persons and Products.
+
 d.	Low Box Shipment analysis.
+
 e.	MOM/YOY Changes.
 
-FLOW: 
+**FLOW:**
+
 Data Loading – Loaded the data present in CSV files.
+
 Data Manipulation and Cleaning – Using Power Query I have cleaned the Data and put appropriate data types, and removed null values.
+
 Data Modelling – Using Star schema (One to Many) I have created the relationship between the tables.
+
 Data Transformation - Using DAX functions, I have created new measures.
+
 Data Analysis – By combining measures we have created live interactive dashboards for giving the overview of the analysis.
-       Time Intelligence Analysis – 
+
+**Time Intelligence Analysis** – 
 Before we are starting the time Intelligence Analysis firstly we convert it into the Date format.
 Then I have did the Derived calculations by adding the columns in the Date Table and added columns like Year, Day, Date.
 
-Insights:
+**Insights:**
 1.	Peanut Butter is our highest profit making product.
 2.	Low Box count – From all the 6,113 Total shipments 624 Shipment has Low box count.
 3.	Overall 10.2 % of LBS (low box shipment) present in the data.
