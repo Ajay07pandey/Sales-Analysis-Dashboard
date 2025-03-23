@@ -11,10 +11,15 @@ The Dashboards is related to Chocolate sales analytics we have given data where 
 
 We have a Fact table called Shipments table having fields as mentioned below:
             a. Sales Person
+            
             b. Geography
+            
             c. Product
+            
             d. Date
+            
             e. Sales
+            
             f. Boxes
             
 **Dimension Table:**
